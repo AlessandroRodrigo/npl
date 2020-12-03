@@ -1,0 +1,28 @@
+.v-text-field > .v-input__control > .v-input__slot:after,
+.v-text-field > .v-input__control > .v-input__slot:after,
+.v-input--is-focused,
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before,
+.theme--light.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot:before,
+.v-text-field > .v-input__control > .v-input__slot:after, .v-text-field > .v-input__control > .v-input__slot:after, .v-input--is-focused, .theme--light.v-text-field > .v-input__control > .v-input__slot:before, .theme--light.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot:before {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.v-text-field > .v-input__control > .v-input__slot:after {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-style: none;
+  border-width: 0;
+  transform: none;
+}
+
+.v-menu__content {
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+.default-box-shadow {
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.v-dialog {
+  box-shadow: none !important;
+}
